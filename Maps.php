@@ -42,7 +42,7 @@
                 <label>No. de Control:</label>
               </div>
               <div class="col">
-                <input type="text" class="form-control">
+                <input type="text" name="Control" class="form-control">
               </div>
             </div>
             <div class="row plusmrg">
@@ -50,7 +50,7 @@
                 <label>Marca de Carro:</label>
               </div>
               <div class="col">
-                <input type="text" class="form-control">
+                <input type="text" name="Carro" class="form-control">
               </div>
             </div>
             <div class="row plusmrg">
@@ -58,7 +58,7 @@
                 <label>Modelo de Carro:</label>
               </div>
               <div class="col">
-                <input type="text" class="form-control">
+                <input type="text" name="Mod" class="form-control">
               </div>
             </div>
             <div class="row plusmrg">
@@ -66,7 +66,7 @@
                 <label>Año del Carro:</label>
               </div>
               <div class="col">
-                <input type="text" class="form-control">
+                <input type="text" name="Year" class="form-control">
               </div>
             </div>
             <div class="row plusmrg">
@@ -74,7 +74,7 @@
                 <label>Color:</label>
               </div>
               <div class="col">
-                <input type="text" class="form-control">
+                <input type="text" name="Color" class="form-control">
               </div>
             </div>
             <div class="row plusmrg">
@@ -82,7 +82,7 @@
                 <label>Placas:</label>
               </div>
               <div class="col">
-                <input type="text" class="form-control">
+                <input type="text" name="Placas" class="form-control">
               </div>
             </div>
             <div class="row plusmrg">
@@ -90,12 +90,12 @@
                 <label>Contraseña:</label>
               </div>
               <div class="col">
-                <input type="text" class="form-control">
+                <input type="text" name="Pass" class="form-control">
               </div>
             </div>
             <div class="row plusmrg">
               <div class="col">
-                <input type="button" value="Registrar" class="btn btn-primary" id="RegistrarChofer">
+                <input type="submit" name="submit" value="Registrar" class="btn btn-primary" id="RegistrarChofer">
               </div>
               <div class="col">
                 <input type="button" value="Regresar" class="btn btn-warning" onclick="Regresar()">
