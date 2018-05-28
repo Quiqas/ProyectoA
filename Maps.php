@@ -13,17 +13,17 @@
 <body>
   <div class="container">
     <div class="row">
-      <div id="map" class="col-lg-9 an">
+      <div id="map" class="col-lg-9 col-xs-12 an">
       </div>
-      <div class="photo-wrapper col-lg-3">
+      <div class="photo-wrapper col-lg-3 col-md-12 col-xs-12">
         <div id="LogIn" class="LogIn">
-          <div class="col-lg-3">
+          <div class="col-xs-3">
             <button class="btn btn-primary Espacio " onclick="Chofer()">Chofer</button>
           </div>
-          <div class="col-lg-3">
+          <div class="col-xs-3">
             <button class="btn btn-success Espacio1 " onclick="Pasajero()">Pasajero</button>
           </div>
-          <div class="col-md-3">
+          <div class="col-xs-3">
             <button class="registrar btn btn-warning Espacio1" onclick="Registrar()">Registrarse</button>
           </div>
         </div>

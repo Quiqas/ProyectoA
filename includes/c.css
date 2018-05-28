@@ -118,3 +118,12 @@ button {
     width: 100%;
   }
 }
+
+@media (max-width: 980px){
+    
+   #map{
+  height: 690px;
+  width: 100%;
+  background-color: blue;
+}
+}
