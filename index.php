@@ -4,11 +4,11 @@
 <head>
     <title>Taxi-Tec</title>
     <!-- favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/Lv2.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="images/git-icon.ico">
     <!-- Estílos -->
-    <link rel="stylesheet" href="includes/styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
     <!-- Normalize -->
-    <link rel="stylesheet" href="includes/normalize.css">
+    <link rel="stylesheet" href="styles/normalize.css">
     <!-- Google Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
@@ -26,34 +26,59 @@
 </head>
 
 <body>
-
     <!-- Portada -->
-    <section>
-	    <div class="cover">
-	        <div class="content">
-	            <div class="content">
-	            	<h1>Bienvenido</h1>
-	                
-	            </div>
-	            <a href="#bienvenida" , class="icon fa fa-arrow-down"></a>
-	        </div>
-	    </div>
+    <div class="cover">
+        <div class="content">
+            <figure class="logo">
+                <img src="images/logo.png" alt="">
+            </figure>
+            <h1>Curso de</h1>
+            <div class="content">
+                <figure class="git-logo">
+                    <img class="imagen" src="images/git-logo-blanco.png" alt="">
+                </figure>
+                <span class="simbolo-mas">+</span>
+                <figure class="github-logo">
+                    <img class="imagen" src="images/github-logo-blanco.png" alt="">
+                </figure>
+            </div>
+            <a href="#bienvenida" , class="icon fa fa-arrow-down"></a>
+        </div>
+    </div>
+    
+    <section class="info-2">
+        <div class="cajas">
+            <div class="imagen">
+                <img src="img/Lv2.png" alt="">
+            </div>
+        </div>
+        <div class="cajas margin-left">
+            <h2>Taxi-Tec</h2>
+            <p>Taxi-Tec es una página diseñada para ayudar a los estuidantes del Instituto Tecnólogico de ciudad Juárez. La idea es ofrecer un transporte entre los mismos estudiantes.</p>
+            <ul>
+                <li>Materia: Metodlogía de Desarrollo de Software</li>
+                <li>Maestra: Anilú Flores</li>
+                <li>Escuela: Instituto Tecnólogico de Ciudad Juárez</li>
+            </ul>
+            <p>Código </p>
+            <a href="https://github.com/Quiqas/ProyectoA"><i class="fa fa-github fa-2x"></i></a>
+          
+        </div>
+        <div class="relleno"></div>
     </section>
-    <!-- Bienvenida -->
-    <section class="info">
-        <h2 id="bienvenida">Taxi-Tec</h2>
-	</section>
+   
 
-    <script type="text/javascript">
-        $('a').click(function(e){               
-        e.preventDefault();     //evitar el eventos del enlace normal
-        var strAncla=$(this).attr('href'); //id del ancla
-            $('body,html').stop(true,true).animate({                
-                scrollTop: $(strAncla).offset().top
-            },1000);
-        
-    });
-    </script>
+    <footer>
+        <div class="left">
+            <p>&COPY; 2018 by Taxi-Tec</p>
+        </div>
+        <div class="right">
+            <ul>
+                <li><a href="#">Términos</a></li>
+                <li><a href="#">Pri
+            </ul>
+        </div>
+    </footer>
 </body>
 
 </html>
