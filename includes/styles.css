@@ -1,0 +1,106 @@
+a{
+    text-decoration: none;
+}
+
+body{
+    /*	font-family: 'Lato', sans-serif;*/
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.content figure{
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Raleway', sans-serif;
+    /*border:solid black 1px;*/
+}
+
+.content h1{
+    font-family: 'Kaushan Script', cursive;
+    color: #D74942;
+    font-size: 50px;
+    text-shadow: 4px 4px 5px rgba(0,0,0,0.5);
+
+}
+
+.content{
+    text-align: center;
+}
+
+.cover{
+    position: relative;
+    background: url(../img/Tec2.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+   
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+.content .icon{
+    animation: float 1.5s ease-out infinite;
+    color: black;
+    font-size: 80px;
+}
+
+.info{
+    background-color: #1c1c1d;
+    color: white;
+    padding: 20px;
+}
+
+
+.info a {
+    color: white;
+}
+
+.info h2{
+    font-family: 'Signika Negative', sans-serif;
+    text-shadow: 4px 4px 5px rgba(0,0,0,0.5);
+    font-size: 50px;
+    margin: 15px 0;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+
+.fa:hover{
+    transition: 0.3s;
+    transform: scale(1.4);
+
+}
+
+
+@keyframes float {
+    50% {
+        transform: translate(0, 20px);
+    }
+}
+
+/* Media queries*/
+@media all and (min-width: 769px){
+    .content h1{
+        font-size: 100px;
+    }
+
+    .infoContent .block{
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width : 320px) 
+{
+    .cajas{width: 100%}
+    .info{word-break: break-word}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) 
+{
+   .cajas{width: 100%}
+   .info{word-break: break-word}
+}

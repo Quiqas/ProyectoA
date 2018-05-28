@@ -1,0 +1,120 @@
+body{
+	background: black;
+}
+
+.container{
+	margin-left: 0px;
+	margin-right: 0px;
+	max-width: 100%;
+}
+	
+#map{
+	height: 690px;
+	width: 75%;
+	background-color: grey;
+}
+
+#half{
+	height: 690px;
+	width: -15%;
+	background-color: grey;
+}
+
+.photo-wrapper {
+ 
+    height: 40vh;
+    text-align: center;
+    background-image: url(../img/Lv2.png);
+    
+
+    background-size: 100% 100%;
+	
+	position: relative;
+
+}
+.Espacio{
+	margin-top: 250px;
+}
+.Espacio1{
+	margin-top: 10px;
+}
+button {
+	width: 300px;
+}
+.an{
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+.an1{
+  animation-duration: 3s;
+  animation-name: slidein2;
+}
+
+.DivRegistrar{
+  margin-top: 200px;
+  display: none;
+}
+
+.selected{
+  border-bottom: solid white 2px;
+  margin: 0px 8px 0px 5px;
+}
+
+.titulos{
+  color: white;
+  
+}
+.label {
+    color: white;
+    padding: 8px;
+    font-size: large;
+}
+
+.success {background-color: #4CAF50; border-radius: 5px;} /* Green */
+.info {background-color: #2196F3; border-radius: 5px;} /* Blue */
+.warning {background-color: #ff9800;} /* Orange */
+.danger {background-color: #f44336;} /* Red */
+.other {background-color: #e7e7e7; color: black;} /* Gray */
+.FormChofer{
+  margin-top:10px;
+  display: none;
+}
+
+.FormChofer label{
+  color: white;
+}
+
+.FormPasajero{
+  margin-top:10px;
+  display: none;
+}
+
+.FormPasajero label{
+  color: white;
+}
+
+.plusmrg{
+  margin: 5px 0px 5px 0px;
+}
+.registrar{
+  color: white;
+  font-size: medium;
+} 
+
+.registrar:hover{
+  font-size: bold;
+  text-decoration: underline;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
