@@ -110,7 +110,7 @@
                 <label>No. de Control:</label>
               </div>
               <div class="col">
-                <input type="text" class="form-control">
+                <input type="text" name="Control" class="form-control">
               </div>
             </div>
             <div class="row plusmrg">
@@ -118,12 +118,12 @@
                 <label>Contraseña:</label>
               </div>
               <div class="col">
-                <input type="text" class="form-control">
+                <input type="text" name="Pass" class="form-control">
               </div>
             </div>
             <div class="row plusmrg">
               <div class="col">
-                <input type="button" value="Registrar" class="btn btn-primary" id="RegistrarChofer">
+                <input type="submit" name="submit" value="Registrar" class="btn btn-primary" id="RegistrarChofer">
               </div>
               <div class="col">
                 <input type="button" value="Regresar" class="btn btn-warning" onclick="Regresar()">
