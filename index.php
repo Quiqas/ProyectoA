@@ -32,21 +32,13 @@
             <figure class="logo">
                 <img src="images/logo.png" alt="">
             </figure>
-            <h1>Curso de</h1>
-            <div class="content">
-                <figure class="git-logo">
-                    <img class="imagen" src="images/git-logo-blanco.png" alt="">
-                </figure>
-                <span class="simbolo-mas">+</span>
-                <figure class="github-logo">
-                    <img class="imagen" src="images/github-logo-blanco.png" alt="">
-                </figure>
-            </div>
-            <a href="#bienvenida" , class="icon fa fa-arrow-down"></a>
+            <h1>Taxi-Tec</h1>
+            
+            <a href="#bienvenida"  class="icon fa fa-arrow-down"></a>
         </div>
     </div>
     
-    <section class="info-2">
+    <section id="bienvenida" class="info-2">
         <div class="cajas">
             <div class="imagen">
                 <img src="img/Lv2.png" alt="">
