@@ -346,8 +346,7 @@
 
     function calculateAndDisplayRoute(directionsService, directionsDisplay, lat, lng) {
 
-      alert(lat);
-       alert(lng);
+   
       //var selectedMode = document.getElementById('mode').value;
       directionsService.route({
         origin: { lat: lat, lng: lng },  // Haight.
