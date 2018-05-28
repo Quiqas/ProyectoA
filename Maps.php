@@ -1,3 +1,7 @@
+<?php 
+  session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,18 +19,50 @@
     <div class="row">
       <div id="map" class="col-lg-9 col-xs-12 an">
       </div>
+      
+      
+       
       <div class="photo-wrapper col-lg-3 col-md-12 col-xs-12">
         <div id="LogIn" class="LogIn">
+          <?php if(!isset($_SESSION['user_id'])){ ?>
+          <div class="Espacio">
+            <form action="login.php" method="POST">
+          <div class="row plusmrg ">
+            <div class="col" >
+                <h2 style="color: white">Log In</h2>
+            </div>
+          </div>
+          <div class="row plusmrg">
+            <div class="col">
+              <input type="text" class="form-control" name="NoControl" placeholder="No. Control"/>
+            </div>
+          </div>
+            <div class="row plusmrg">
+              <div class="col">
+                <input type="password" class="form-control" name="Contraseña" placeholder="Contraseña"/>
+              </div>
+            </div>
+            <div class="row plusmrg">
+                <div class="col">
+                  <input type="submit" name="submit" class="btn btn-primary" id="BtnLogIn" value="Log In"/>
+                </div>
+              </div>
+            </form>
+            </div>
+            <div class="col-xs-3">
+            <button class="registrar btn btn-warning Espacio1" onclick="Registrar()">Registrarse</button>
+          </div>
+              <?php }else{ ?>
           <div class="col-xs-3">
             <button class="btn btn-primary Espacio " onclick="Chofer()">Chofer</button>
           </div>
           <div class="col-xs-3">
             <button class="btn btn-success Espacio1 " onclick="Pasajero()">Pasajero</button>
           </div>
-          <div class="col-xs-3">
-            <button class="registrar btn btn-warning Espacio1" onclick="Registrar()">Registrarse</button>
-          </div>
+          <?php } ?>
+          
         </div>
+
         <div id="Registrar" class="DivRegistrar row">
           <div class="col" id="Chof" onclick="CambiaAChofer()">
             <label class="label info    ">Chofer</label>
